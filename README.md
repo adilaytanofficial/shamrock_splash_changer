@@ -28,3 +28,17 @@ Generates `splash.img`, packages a flashable recovery ZIP, and supports direct `
 
 ```bash
 sudo apt install imagemagick zip unzip android-tools-adb android-tools-fastboot
+```
+
+---
+
+## 🚀 How to Use
+
+1. **🖼️ Prepare your image**
+   Place a `1080×1920` PNG at `splash/splash.png`.
+
+2. **🔨 Build**
+   ```bash
+   chmod +x build_splash_zip.sh
+   ./build_splash_zip.sh
+   ```
