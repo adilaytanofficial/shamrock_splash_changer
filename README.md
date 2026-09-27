@@ -39,6 +39,6 @@ sudo apt install imagemagick zip unzip android-tools-adb android-tools-fastboot
 
 2. **🔨 Build**
    ```bash
-   chmod +x build_splash_zip.sh
-   ./build_splash_zip.sh
+   chmod +x build.sh
+   ./build.sh
    ```
